@@ -1,0 +1,33 @@
+.mui-icon-back {
+    color: #fff;
+}
+
+.getCode {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #069;
+    font-size: 14px;
+}
+
+.register {
+    width: 90%;
+}
+
+.loginNow {
+    display: block;
+    margin-top: 10px;
+    padding-right: 10px;
+    color: #069;
+    font-size: 14px;
+    text-align: right;
+}
+
+.mui-toast-message {
+    width: 100%;
+}
+
+.login {
+    width: 90%;
+}

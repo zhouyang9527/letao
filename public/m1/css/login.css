@@ -1,0 +1,16 @@
+.login {
+    width: 90%;
+}
+
+.register {
+    display: block;
+    margin-top: 10px;
+    padding-right: 10px;
+    color: #069;
+    font-size: 14px;
+    text-align: right;
+}
+
+.mui-toast-message {
+    width: 100%;
+}

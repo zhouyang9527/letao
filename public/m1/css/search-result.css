@@ -1,0 +1,31 @@
+.mui-row {
+    margin: 54px 10px 10px 10px;
+}
+
+.mui-icon-back {
+    color: #fff;
+}
+
+.filter .mui-col-xs-6 {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #efeff4;
+}
+
+.filter span {
+    font-size: 14px;
+}
+
+.noresult {
+    padding: 10px;
+    color: red;
+    font-size: 14px;
+}
+
+#refreshContainer {
+    /* position: absolute; */
+    left: 0;
+    bottom: 50px;
+}

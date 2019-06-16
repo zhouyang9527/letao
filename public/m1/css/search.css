@@ -1,0 +1,60 @@
+.searcontent {
+    margin-top: 44px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.search {
+    position: relative;
+    height: 30px;
+    border: 1px solid #069;
+    margin-bottom: 15px;
+}
+
+.mui-icon-back {
+    color: #fff;
+}
+
+.searcontent input[type='text'] {
+    float: left;
+    background-color: #fff;
+    border: 0;
+    height: 28px;
+    padding-right: 70px;
+    color: #464646;
+    margin: 0;
+}
+
+.searcontent input[type='button'] {
+    position: absolute;
+    right: 0;
+    background-color: #069;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 0;
+    width: 60px;
+    border: 0;
+    height: 28px;
+    text-align: center;
+}
+
+.history-top {
+    color: #8f8f94;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.history-top .clear {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.history-top .mui-icon-trash:before {
+    margin-right: 4px;
+}
+
+.mui-toast-message {
+    background-color: #FD4C5B;
+    /* opacity: 0.3; */
+    color: #fff;
+}

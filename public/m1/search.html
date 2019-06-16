@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" type="text/css" href="css/icons-extra.css" />
+    <script src="assets/mui/js/mui.min.js"></script>
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="assets/artTemplate/template-native.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/public.js"></script>
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav my-navbar">
+        <span class="mui-action-back mui-icon mui-icon-back"></span>
+        <h1 class="mui-title">乐淘云购</h1>
+    </header>
+    <nav class="mui-bar mui-bar-tab my-navbar">
+        <a class="mui-tab-item mui-active" href="index.html">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item" href="category.html">
+            <span class="mui-icon mui-icon-bars"></span>
+            <span class="mui-tab-label">分类</span>
+        </a>
+        <a class="mui-tab-item" href="cart.html">
+            <span class="mui-icon mui-icon-extra mui-icon-extra-cart"></span>
+            <span class="mui-tab-label">购物车</span>
+        </a>
+        <a class="mui-tab-item" href="user.html">
+            <span class="mui-icon mui-icon-person"></span>
+            <span class="mui-tab-label">会员中心</span>
+        </a>
+    </nav>
+    <div class="my-content">
+        <div class="searcontent">
+            <!-- 搜索框 -->
+            <div class="search">
+                <input type="text" placeholder="搜索您喜欢的商品">
+                <input type="button" value="搜索" id="search-btn">
+            </div>
+            <!-- /搜索框 -->
+            <!-- 土司提示 -->
+            <div class="mui-toast-container">
+                <div class="mui-toast-message">
+
+                </div>
+            </div>
+            <!-- 搜索历史 -->
+            <div class="history-top mui-clearfix">
+                <span class="title mui-pull-left">搜索历史</span>
+                <span class="clear mui-pull-right mui-icon mui-icon-trash">清空历史</span>
+            </div>
+            <!-- /搜索历史 -->
+            <ul class="mui-table-view" id="search-view">
+                <li class="mui-table-view-cell">Item 1</li>
+                <li class="mui-table-view-cell">Item 2</li>
+                <li class="mui-table-view-cell">Item 3</li>
+            </ul>
+        </div>
+    </div>
+    <script id="viewTemplate" type="text/template">
+        <%for(var i=0;i<res.length;i++){%>
+            <li class="mui-table-view-cell">
+                <%=res[i]%>
+            </li>
+            <% } %>
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/icons-extra.css" />
+    <link rel="stylesheet" href="css/register.css">
+    <script src="assets/mui/js/mui.min.js"></script>
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="js/public.js"></script>
+    <script src="js/modify.js"></script>
+    <style>
+        .mui-input-row label,
+        .mui-input-row input {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="mui-bar mui-bar-nav my-navbar">
+        <span class="mui-action-back mui-icon mui-icon-back"></span>
+        <h1 class="mui-title">修改密码</h1>
+    </header>
+    <nav class="mui-bar mui-bar-tab my-footer">
+        <a class="mui-tab-item" href="index.html">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item" href="category.html">
+            <span class="mui-icon mui-icon-bars"></span>
+            <span class="mui-tab-label">分类</span>
+        </a>
+        <a class="mui-tab-item" href="cart.html">
+            <span class="mui-icon mui-icon-extra mui-icon-extra-cart"></span>
+            <span class="mui-tab-label">购物车</span>
+        </a>
+        <a class="mui-tab-item" href="user.html">
+            <span class="mui-icon mui-icon-person"></span>
+            <span class="mui-tab-label">会员中心</span>
+        </a>
+    </nav>
+    <div class="my-content">
+        <form class="mui-input-group">
+            <div class="mui-input-row">
+                <label>原密码</label>
+                <input type="password" class="mui-input-password" id="originPass" placeholder="请输入原密码">
+            </div>
+            <div class="mui-input-row">
+                <label>新密码</label>
+                <input type="password" class="mui-input-password" id="newPass" placeholder="请输入新密码">
+            </div>
+            <div class="mui-input-row">
+                <label>确认新密码</label>
+                <input type="password" class="mui-input-password" id="confimNewPass" placeholder="确认新密码">
+            </div>
+            <div class="mui-input-row">
+                <label>认证码</label>
+                <input type="text" class="mui-input-vCode" id="vCode" placeholder="认证码">
+                <a href="#" class="getCode">获取认证码</a>
+            </div>
+            <div class="mui-button-row">
+                <button type="button" class="mui-btn mui-btn-primary login" id="modify-btn">确认修改密码</button>
+            </div>
+        </form>
+
+        <!-- 土司提示 -->
+        <div class="mui-toast-container">
+            <div class="mui-toast-message">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

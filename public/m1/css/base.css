@@ -1,0 +1,153 @@
+.my-navbar,
+.my-footer {
+    background: #069;
+    z-index: 999;
+}
+
+.my-content {
+    margin-top: 44px;
+    margin-bottom: 50px;
+}
+
+.my-navbar h1,
+.my-navbar a {
+    color: #fff;
+}
+
+.right {
+    float: right;
+}
+
+.mui-tab-item span {
+    color: #fff;
+}
+
+
+/* 规避滑动报警 */
+
+* {
+    touch-action: pan-y;
+}
+
+.nav-links {
+    margin: 10px;
+}
+
+.nav-links a {
+    float: left;
+    width: 33.333%;
+}
+
+.nav-links a img {
+    width: 100%;
+    display: block;
+    /* 或者 
+    vertical-align: top;
+    或者 改变当前图片所在div文字的字体大小为0
+
+    字体大小  font-size 12px时。  图片底线会多3像素
+    字体大小  font-size 16px时。  图片底线会多4像素
+    */
+}
+
+body,
+.mui-content {
+    background-color: #fff;
+}
+
+.brand {
+    padding: 0 10px;
+}
+
+.brand img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.index-ul li {
+    float: left;
+    width: 25%;
+}
+
+a {
+    color: #000;
+}
+
+.product {
+    padding: 0 10px;
+    width: 100%;
+}
+
+.product img {
+    width: 100%;
+}
+
+.sport li {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.mui-icon-back {
+    color: #fff;
+}
+
+.name {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+    height: 38px;
+    overflow: hidden;
+    padding: 5px;
+    color: #8f8f94;
+}
+
+.sport li a {
+    display: block;
+    box-shadow: 0 0 5px #ccc;
+    padding: 5px;
+}
+
+.sport li a p {
+    width: 115px;
+    text-align: center;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.sport li a p span:first-child {
+    color: red;
+}
+
+.sport li a p span:last-child {
+    text-decoration: line-through;
+}
+
+.buy-now {
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #069;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 0 auto 5px auto;
+}
+
+.mui-active span {
+    color: darkorange!important;
+}
+
+.mui-toast-message {
+    background-color: #FD4C5B;
+    /* opacity: 0.3; */
+    color: #fff;
+}
